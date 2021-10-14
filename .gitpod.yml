@@ -5,6 +5,7 @@ tasks:
   - init: |
       .gitpod/scripts/ddev-download-images.sh
       .gitpod/scripts/ddev-setup.sh
+      composer install
     command: |
       .gitpod/scripts/ddev-setup.sh
 
