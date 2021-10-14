@@ -1,0 +1,35 @@
+image:
+  file: .gitpod/Dockerfile
+
+tasks:
+  - init: |
+      .gitpod/scripts/ddev-download-images.sh
+      .gitpod/scripts/ddev-setup.sh
+    command: |
+      .gitpod/scripts/ddev-setup.sh
+
+ports:
+  - port: 2222
+    onOpen: ignore
+  - port: 3306
+    onOpen: ignore
+  - port: 8025
+    onOpen: ignore
+  - port: 8036
+    onOpen: ignore
+  - port: 8080
+    onOpen: ignore
+    visibility: public
+  - port: 9000
+    onOpen: ignore
+
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: true
+    addCheck: true
+    addComment: false
+    addBadge: true
+    addLabel: true
