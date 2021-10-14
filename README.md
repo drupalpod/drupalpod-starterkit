@@ -9,7 +9,7 @@
 
 2. Once the repository has been generated, open it in Gitpod by appending `https://gitpod.io#` to the GitHub url.
 
-   Example: `https://gitpod.io#github.com/Decipher/drupalpod-starterkit`
+   Example: `https://gitpod.io#github.com/drupalpod/drupalpod-starterkit`
 
    _Note:_ If this is your first time using Gitpod, you can signup for a free plan with your Github account.
 
