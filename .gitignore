@@ -23,3 +23,6 @@
 
 # Ignore .env files as they are personal
 /.env
+
+# Ignore auto-generated environmet files
+/.ddev/docker-compose.host-docker-internal.yaml
