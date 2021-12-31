@@ -7,7 +7,7 @@ tasks:
       .gitpod/scripts/ddev-setup.sh
       ddev drupal-install
     command: |
-      ddev start
+      .gitpod/scripts/ddev-setup.sh
       cat .gitpod/WELCOME.md
       ddev drush user:login
 
