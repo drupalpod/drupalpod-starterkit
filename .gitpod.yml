@@ -6,8 +6,6 @@ tasks:
       .gitpod/scripts/ddev-download-images.sh
       .gitpod/scripts/ddev-setup.sh
       ddev install
-    command: |
-      .gitpod/scripts/ddev-setup.sh
 
 ports:
   - port: 2222
