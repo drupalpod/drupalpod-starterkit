@@ -6,6 +6,7 @@ tasks:
       .gitpod/scripts/ddev-download-images.sh
       .gitpod/scripts/ddev-setup.sh
       ddev drupal-install
+    command: ddev drush user:login
 
 ports:
   - port: 2222
