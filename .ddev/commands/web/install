@@ -1,9 +1,0 @@
-#!/bin/bash
-
-## Description: Install the Drupal using Tome
-## Usage: install
-## Example: "ddev install"
-
-composer install
-drush site:install -y
-drush user:login

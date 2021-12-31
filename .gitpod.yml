@@ -5,7 +5,7 @@ tasks:
   - init: |
       .gitpod/scripts/ddev-download-images.sh
       .gitpod/scripts/ddev-setup.sh
-      ddev install
+      ddev drupal-install
 
 ports:
   - port: 2222

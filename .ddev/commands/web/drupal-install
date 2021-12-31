@@ -1,0 +1,9 @@
+#!/bin/bash
+
+## Description: Install Drupal
+## Usage: drupal-install
+## Example: "ddev drupal-install"
+
+composer install
+drush site:install -y
+drush user:login
