@@ -16,10 +16,10 @@
     ],
     "require": {
         "composer/installers": "1.12.0",
-        "drupal/core-composer-scaffold": "9.2.7",
-        "drupal/core-project-message": "9.2.7",
-        "drupal/core-recommended": "9.2.7",
-        "drush/drush": "10.6.1"
+        "drupal/core-composer-scaffold": "9.3.6",
+        "drupal/core-project-message": "9.3.6",
+        "drupal/core-recommended": "9.3.6",
+        "drush/drush": "10.6.2"
     },
     "conflict": {
         "drupal/drupal": "*"
