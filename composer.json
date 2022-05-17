@@ -16,9 +16,9 @@
     ],
     "require": {
         "composer/installers": "2.1.1",
-        "drupal/core-composer-scaffold": "9.3.12",
-        "drupal/core-project-message": "9.3.12",
-        "drupal/core-recommended": "9.3.12",
+        "drupal/core-composer-scaffold": "9.3.13",
+        "drupal/core-project-message": "9.3.13",
+        "drupal/core-recommended": "9.3.13",
         "drush/drush": "11.0.9"
     },
     "conflict": {
