@@ -5,6 +5,7 @@ tasks:
   - init: |
       .gitpod/scripts/ddev-download-images.sh
       .gitpod/scripts/ddev-setup.sh
+      .gitpod/scripts/composer-setup.sh
       ddev drupal-install
     command: |
       .gitpod/scripts/ddev-setup.sh
